@@ -11,12 +11,12 @@ src_prepare() {
     cd ../musl-chartable-tools-78b213a868553b1154ee9627c96ff1f14a9a3b1b
     cd ctype
     CC=gcc make
-    cp alpha.h punct.h nonspacing.h wide.h ../../musl-1.2.4/src/ctype/
+    cp alpha.h punct.h nonspacing.h wide.h ../../musl-1.2.5/src/ctype/
     cd ../iconv
     CC=gcc make
     cp legacychars.h codepages.h jis0208.h gb18030.h hkscs.h ksc.h revjis.h \
-        ../../musl-1.2.4/src/locale/
-    cd ../../musl-1.2.4
+        ../../musl-1.2.5/src/locale/
+    cd ../../musl-1.2.5
 }
 
 src_configure() {

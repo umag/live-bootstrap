@@ -1,3 +1,8 @@
+SPDX-FileCopyrightText: 2024 fosslinux <fosslinux@aussies.space>
+
+SPDX-License-Identifier: MIT
+(as per https://github.com/richfelker/musl-chartable-tools/issues/3)
+
 Inexplicable problem, where mkcodepage returns 3 instead of 0 on some inputs.
 Compilation error?
 
